@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @equipment.name %>
+</p>
+
+<p>
+  <strong>File:</strong>
+  <%= @equipment.file %>
+</p>
+
+<p>
+  <strong>Youtube:</strong>
+  <%= @equipment.youtube %>
+</p>
+
+<p>
+  <strong>Qrcode:</strong>
+  <%= @equipment.qrcode %>
+</p>
+
+<p>
+  <strong>Slots:</strong>
+  <%= @equipment.slots %>
+</p>
+
+<%= link_to 'Edit', edit_equipment_path(@equipment) %> |
+<%= link_to 'Back', equipment_index_path %>
